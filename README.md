@@ -20,14 +20,14 @@ As we refined this data to perform our analysis, the first step was to create a 
 ![vines_df](/Resources/20_votes.png)
 
 Next, our data was further refined to include records where the ration of helpful_votes to total_votes was greater or equal to .5.  This takes our record count from $2.3M down to under 40,000 records:
-![vines_df](/Resources/helful_ratio.png)
+![vines_df](/Resources/helpful_ratio.png)
 
 Now, we create two new dataframes from this data, 1) representing the total paid reviews that provided 5 star ratings and 2) the total unpaid reviews that provided 5 star ratings:
 ![vines_df](/Resources/paid_reviews.png)
 ![vines_df](/Resources/unpaid_reviews.png)
 
 With our two final dataframes above, we can now create totals and calculate a percentage of the totals for both paid and unpaid reviews.  Following is our summary view:
-![vines_df](/Resources/summary_view.png)
+![vines_df](/Resources/summary_review.png)
 
 There were **3,137** total paid reviews out of the full data set.  There were **2,299,255** reviews that were unpaid from the total dataset.
 
